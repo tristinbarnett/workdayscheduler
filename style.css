@@ -3,6 +3,9 @@ body {
   font-size: 16px;
   line-height: 1;
 }
+.container {
+  width: 80%;
+}
 
 textarea{
   background: transparent;
@@ -40,6 +43,7 @@ textarea{
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  width:100%;
 }
 
 .past {
@@ -63,6 +67,7 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  width: 10%;
 }
 
 .saveBtn i:hover {

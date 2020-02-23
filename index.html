@@ -10,6 +10,7 @@
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/c246f09b46.js" crossorigin="anonymous"></script>
   <title>Work Day Scheduler</title>
 </head>
 
@@ -17,7 +18,7 @@
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
-    <p data-hour="currentDay" class="lead"></p>
+    <p id="currentDay" class="lead"></p>
   </header>
   <div class="container">
     <!-- Timeblocks go here -->
@@ -25,8 +26,8 @@
       <div class="input-group-prepend">
         <span class="input-group-text hour">9AM</span>
       </div>
-      <textarea data-hour="9" id="firstBox" class="form-control timeRow" aria-label="With textarea"></textarea>
-      <button class="btn saveBtn" type="button" data-value="firstBox">Button</button>
+      <textarea data-hour="9" class="form-control timeRow" aria-label="With textarea"></textarea>
+      <button class="btn saveBtn" type="button" data-value="firstBox"><i class="fas fa-lock"></i></button>
 
     </div>
     <div class="input-group row">
@@ -34,56 +35,56 @@
         <span class="input-group-text hour">10AM</span>
       </div>
       <textarea data-hour="10" class="form-control timeRow" aria-label="With textarea"></textarea>
-      <button class="btn saveBtn" type="button" data-value="secondBox">Button</button>
+      <button class="btn saveBtn" type="button" data-value="secondBox"><i class="fas fa-lock"></i></button>
     </div>
     <div class="input-group row">
       <div class="input-group-prepend">
         <span class="input-group-text hour">11AM</span>
       </div>
       <textarea data-hour="11" class="form-control timeRow" aria-label="With textarea"></textarea>
-      <button class="btn saveBtn" type="button" data-value="thirdBox">Button</button>
+      <button class="btn saveBtn" type="button" data-value="thirdBox"><i class="fas fa-lock"></i></button>
     </div>
     <div class="input-group row">
       <div class="input-group-prepend">
         <span class="input-group-text hour">12PM</span>
       </div>
       <textarea data-hour="12" class="form-control timeRow" aria-label="With textarea"></textarea>
-      <button class="btn saveBtn" type="button" data-value="fourthBox">Button</button>
+      <button class="btn saveBtn" type="button" data-value="fourthBox"><i class="fas fa-lock"></i></button>
     </div>
     <div class="input-group row">
       <div class="input-group-prepend">
         <span class="input-group-text hour">1PM</span>
       </div>
       <textarea data-hour="13" class="form-control timeRow" aria-label="With textarea"></textarea>
-      <button class="btn saveBtn" type="button" data-value="fifthBox">Button</button>
+      <button class="btn saveBtn" type="button" data-value="fifthBox"><i class="fas fa-lock"></i></button>
     </div>
     <div class="input-group row">
       <div class="input-group-prepend">
         <span class="input-group-text hour">2PM</span>
       </div>
       <textarea data-hour="14" class="form-control timeRow" aria-label="With textarea"></textarea>
-      <button class="btn saveBtn" type="button" data-value="sixthBox">Button</button>
+      <button class="btn saveBtn" type="button" data-value="sixthBox"><i class="fas fa-lock"></i></button>
     </div>
     <div class="input-group row">
       <div class="input-group-prepend">
         <span class="input-group-text hour">3PM</span>
       </div>
       <textarea data-hour="15" class="form-control timeRow" aria-label="With textarea"></textarea>
-      <button class="btn saveBtn" type="button" data-value="seventhBox">Button</button>
+      <button class="btn saveBtn" type="button" data-value="seventhBox"><i class="fas fa-lock"></i></button>
     </div>
     <div class="input-group row">
       <div class="input-group-prepend">
         <span class="input-group-text hour">4PM</span>
       </div>
       <textarea data-hour="16" class="form-control timeRow" aria-label="With textarea"></textarea>
-      <button class="btn saveBtn" type="button" data-value="eigthBox">Button</button>
+      <button class="btn saveBtn" type="button" data-value="eigthBox"><i class="fas fa-lock"></i></button>
     </div>
     <div class="input-group row">
       <div class="input-group-prepend">
         <span class="input-group-text hour">5PM</span>
       </div>
       <textarea data-hour="17" class="form-control timeRow" aria-label="With textarea"></textarea>
-      <button class="btn saveBtn" type="button" data-value="ninthBox">Button</button>
+      <button class="btn saveBtn" type="button" data-value="ninthBox"><i class="fas fa-lock"></i></button>
     </div>
   </div>
 
